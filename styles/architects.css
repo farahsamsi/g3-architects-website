@@ -75,7 +75,7 @@
 
 /* Banner related styles */
 .banner-content{
-    width: 862px;
+    max-width: 862px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
@@ -88,4 +88,13 @@
 
 .banner-image{
     width: 100%;
+}
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
 }
